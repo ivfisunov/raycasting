@@ -1,0 +1,31 @@
+//
+// Created by ivan on 18.01.2020.
+//
+
+#ifndef RAYCASTING_CONSTANTS_H
+#define RAYCASTING_CONSTANTS_H
+
+#define FALSE 0
+#define TRUE 1
+
+#define PI 3.14159265
+#define TWO_PI 6.28318530
+
+#define MINI_MAP_SCALE_FACTOR 1.0
+#define TILE_SIZE 64
+#define MAP_NUM_ROWS 13
+#define MAP_NUM_COLS 20
+
+#define WINDOW_WIDTH (MAP_NUM_COLS * TILE_SIZE)
+#define WINDOW_HEIGHT (MAP_NUM_ROWS * TILE_SIZE)
+
+#define FOV_ANGLE (60 * (PI / 180)) // in radians
+
+#define NUM_RAYS WINDOW_WIDTH
+
+#define FPS 30
+#define FRAME_TIME_LENGTH (1000 / FPS)
+
+
+
+#endif //RAYCASTING_CONSTANTS_H
