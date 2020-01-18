@@ -11,7 +11,7 @@
 #define PI 3.14159265
 #define TWO_PI 6.28318530
 
-#define MINI_MAP_SCALE_FACTOR 1.0
+#define MINI_MAP_SCALE_FACTOR 0.2
 #define TILE_SIZE 64
 #define MAP_NUM_ROWS 13
 #define MAP_NUM_COLS 20
