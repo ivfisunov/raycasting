@@ -16,8 +16,13 @@
 #define MAP_NUM_ROWS 13
 #define MAP_NUM_COLS 20
 
+#define NUM_TEXTURES 8
+
 #define WINDOW_WIDTH (MAP_NUM_COLS * TILE_SIZE)
 #define WINDOW_HEIGHT (MAP_NUM_ROWS * TILE_SIZE)
+
+#define TEXTURE_WIDTH 64
+#define TEXTURE_HEIGHT 64
 
 #define FOV_ANGLE (60 * (PI / 180)) // in radians
 
